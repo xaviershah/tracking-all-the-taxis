@@ -1,0 +1,7 @@
+comparison,delta_wmae,ci_lo,ci_hi,sig
+Ridge — no lags,0.4377,0.3862,0.4889,***
+RF — no lags,-2.0752,-2.4026,-1.759,***
+XGB — no lags,-0.0551,-0.3573,0.2594,(ns)
+Ridge — lags,0.0237,0.0155,0.032,***
+RF — lags,-0.0431,-0.131,0.0463,(ns)
+XGB — lags,-0.4459,-0.7108,-0.1813,***

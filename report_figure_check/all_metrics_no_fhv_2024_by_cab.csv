@@ -1,0 +1,53 @@
+cab_type,model,MAE,RMSE,R2,MAPE,WMAE
+fhvhv,Global mean baseline,77.46,127.91,-0.207,236.01,187.19
+fhvhv,"Ridge — no lags, no weather",76.08,113.11,0.0561,414.7,149.86
+fhvhv,Ridge — no lags + weather,75.96,112.91,0.0595,415.22,149.31
+fhvhv,"Ridge — lags, no weather",14.53,26.68,0.9475,24.93,29.36
+fhvhv,Ridge — full features,14.53,26.66,0.9476,25.09,29.33
+fhvhv,"RF — no lags, no weather",60.15,94.0,0.3482,294.69,120.09
+fhvhv,RF — no lags + weather,60.69,95.2,0.3315,298.46,121.88
+fhvhv,"RF — lags, no weather",12.66,24.49,0.9558,20.99,27.13
+fhvhv,RF — full features,12.66,24.48,0.9558,21.04,27.1
+fhvhv,"XGB — no lags, no weather",22.05,40.32,0.8801,59.54,45.13
+fhvhv,XGB — no lags + weather,21.9,39.69,0.8838,58.99,44.79
+fhvhv,"XGB — lags, no weather",11.38,21.51,0.9659,19.24,23.76
+fhvhv,XGB — full features,11.45,21.63,0.9655,19.4,23.95
+yellow,Global mean baseline,59.47,86.78,-0.0374,492.23,130.18
+yellow,"Ridge — no lags, no weather",58.17,80.28,0.1121,552.29,111.35
+yellow,Ridge — no lags + weather,58.52,80.69,0.1032,556.46,111.77
+yellow,"Ridge — lags, no weather",11.32,20.48,0.9422,37.47,24.2
+yellow,Ridge — full features,11.34,20.48,0.9422,37.97,24.2
+yellow,"RF — no lags, no weather",34.99,53.18,0.6104,231.34,70.77
+yellow,RF — no lags + weather,35.82,54.0,0.5983,241.44,71.94
+yellow,"RF — lags, no weather",10.26,18.93,0.9506,33.34,22.86
+yellow,RF — full features,10.26,18.92,0.9507,33.25,22.84
+yellow,"XGB — no lags, no weather",14.46,25.58,0.9099,57.96,31.74
+yellow,XGB — no lags + weather,15.14,26.55,0.9029,62.69,32.89
+yellow,"XGB — lags, no weather",8.99,16.29,0.9634,29.26,19.61
+yellow,XGB — full features,9.09,16.48,0.9626,29.58,19.85
+green,Global mean baseline,49.98,50.01,-747.9138,3105.82,37.43
+green,"Ridge — no lags, no weather",7.57,12.34,-44.5634,539.56,13.15
+green,Ridge — no lags + weather,7.79,12.91,-48.9045,564.21,13.16
+green,"Ridge — lags, no weather",0.48,1.0,0.6998,73.53,3.56
+green,Ridge — full features,0.54,1.12,0.6258,77.11,3.59
+green,"RF — no lags, no weather",0.34,1.13,0.6184,64.49,7.05
+green,RF — no lags + weather,0.35,1.11,0.6282,64.14,6.85
+green,"RF — lags, no weather",0.16,0.65,0.8728,62.19,3.27
+green,RF — full features,0.16,0.65,0.8728,62.08,3.29
+green,"XGB — no lags, no weather",1.3,3.34,-2.3399,149.58,4.5
+green,XGB — no lags + weather,1.3,3.26,-2.1824,157.11,4.72
+green,"XGB — lags, no weather",0.18,0.64,0.8774,61.43,3.17
+green,XGB — full features,0.19,0.64,0.8758,61.75,3.19
+all,Global mean baseline,63.3,96.14,-0.001,444.51,179.76
+all,"Ridge — no lags, no weather",43.45,80.44,0.2992,443.74,144.76
+all,Ridge — no lags + weather,43.53,80.39,0.3001,446.26,144.34
+all,"Ridge — lags, no weather",7.89,19.04,0.9607,29.76,28.66
+all,Ridge — full features,7.91,19.03,0.9608,30.17,28.63
+all,"RF — no lags, no weather",30.72,65.27,0.5386,271.2,113.7
+all,RF — no lags + weather,31.04,66.12,0.5266,275.73,115.41
+all,"RF — lags, no weather",6.79,17.49,0.9669,25.35,26.54
+all,RF — full features,6.79,17.48,0.9669,25.37,26.52
+all,"XGB — no lags, no weather",11.95,28.32,0.9131,64.56,43.38
+all,XGB — no lags + weather,11.95,28.01,0.9151,65.32,43.22
+all,"XGB — lags, no weather",6.1,15.33,0.9746,23.3,23.2
+all,XGB — full features,6.14,15.42,0.9742,23.49,23.39

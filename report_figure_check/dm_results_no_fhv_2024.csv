@@ -1,0 +1,13 @@
+comparison,model_1,model_2,DM_stat,p_value,significant,T_hours
+Ridge: weather? (no lags),"Ridge — no lags, no wx",Ridge — no lags + wx,6.605,0.0,***,1512
+RF: weather? (no lags),"RF — no lags, no wx",RF — no lags + wx,-8.6897,0.0,***,1512
+XGB: weather? (no lags),"XGB — no lags, no wx",XGB — no lags + wx,0.7611,0.44674,(ns),1512
+Ridge: weather? (lags),"Ridge — lags, no wx",Ridge — full,3.5104,0.000461,***,1512
+RF: weather? (lags),"RF — lags, no wx",RF — full,1.1208,0.262571,(ns),1512
+XGB: weather? (lags),"XGB — lags, no wx",XGB — full,-3.7951,0.000153,***,1512
+Ridge: lags? (no wx),"Ridge — no lags, no wx","Ridge — lags, no wx",24.0263,0.0,***,1512
+RF: lags? (no wx),"RF — no lags, no wx","RF — lags, no wx",24.5753,0.0,***,1512
+XGB: lags? (no wx),"XGB — no lags, no wx","XGB — lags, no wx",20.8843,0.0,***,1512
+Full: Ridge vs RF,Ridge — full,RF — full,15.9971,0.0,***,1512
+Full: RF vs XGB,RF — full,XGB — full,19.9374,0.0,***,1512
+Full: Ridge vs XGB,Ridge — full,XGB — full,25.419,0.0,***,1512

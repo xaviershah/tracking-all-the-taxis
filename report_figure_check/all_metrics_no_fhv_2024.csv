@@ -1,0 +1,14 @@
+model,MAE,RMSE,R2,MAPE,WMAE
+Global mean baseline,63.2985,96.139,-0.001,444.51,179.7635
+"Ridge — no lags, no weather",43.4496,80.4407,0.2992,443.74,144.7627
+Ridge — no lags + weather,43.527,80.3925,0.3001,446.26,144.335
+"Ridge — lags, no weather",7.8884,19.0426,0.9607,29.76,28.6569
+Ridge — full features,7.9103,19.0316,0.9608,30.17,28.6304
+"RF — no lags, no weather",30.7189,65.2714,0.5386,271.2,113.6981
+RF — no lags + weather,31.0428,66.1152,0.5266,275.73,115.4084
+"RF — lags, no weather",6.7915,17.4882,0.9669,25.35,26.5426
+RF — full features,6.7916,17.4797,0.9669,25.37,26.5209
+"XGB — no lags, no weather",11.9508,28.3224,0.9131,64.56,43.3761
+XGB — no lags + weather,11.9531,28.0064,0.9151,65.32,43.2154
+"XGB — lags, no weather",6.1002,15.329,0.9746,23.3,23.2013
+XGB — full features,6.1425,15.4241,0.9742,23.49,23.391

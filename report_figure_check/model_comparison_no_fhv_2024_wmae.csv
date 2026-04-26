@@ -1,0 +1,14 @@
+model,wmae
+Baseline,179.76354022486433
+"Ridge — no lags, no wx",144.7626521830512
+Ridge — no lags + wx,144.33502165528066
+"Ridge — lags, no wx",28.656925875699244
+Ridge — full,28.63039550863146
+"RF — no lags, no wx",113.698126975336
+RF — no lags + wx,115.40839978022731
+"RF — lags, no wx",26.542552667983454
+RF — full,26.520868724353043
+"XGB — no lags, no wx",43.37608867039129
+XGB — no lags + wx,43.215354235362604
+"XGB — lags, no wx",23.20128332103176
+XGB — full,23.39095243397472
