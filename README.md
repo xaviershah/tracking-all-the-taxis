@@ -1,12 +1,9 @@
-# tracking-all-the-taxis
-Applied Data Science - Weather prediction and Taxi's
+# Tracking All The Taxis
+**Applied Data Science: Weather Prediction and Taxi Patterns**
 
-AI declaration
+## AI Declaration
+The following AI tools were utilized during the development of this project to assist with technical tasks:
 
-The following tools has been used during this project:
+*   **Code Debugging & Reasoning**: [Anthropic Claude](https://claude.ai) was used to troubleshoot code and refine project logic.
+*   **Researching**: [Google Gemini AI Search](https://gemini.google.com/) assisted in gathering data sources and methodology research.
 
-Debuggging & reasoning
-Claude
-
-Researching
-Google Gemini AI search
